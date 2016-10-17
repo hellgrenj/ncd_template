@@ -4,14 +4,17 @@ A template for getting up and running with [Nancy](http://nancyfx.org/) on [.NET
 
 
 ### prerequisites
-* docker 1.12.1 or greater
+* have .Net core installed (on the host)
+* have docker 1.12.1 or greater
+* have git installed
 
 ### steps
 
-1) clone this repository  
-2) execute <code>docker-compose up</code>  (Docker will pull down some stuff the first time around so have a little patience)  
-3)browse to localhost:5000  
-4) change what <code>GET /</code> returns (see HomeModule.cs) and save. watch the process restart inside the container and refresh the browser.
+1) run <code>git clone https://github.com/hellgrenj/ncd_template.git</code>   
+2) run <code>dotnet restore</code>    
+3) run <code>docker-compose up</code>  (Docker will pull down some stuff the first time around so have a little patience)  
+4) browse to localhost:5000  
+5) change what <code>GET /</code> returns (see HomeModule.cs) and save. watch the process restart inside the container and refresh the browser.
 
 
 
