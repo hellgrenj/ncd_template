@@ -5,7 +5,7 @@ A template for getting up and running with a containerized development environme
 
 ### prerequisites
 * have .Net core installed (on the host)
-* have docker 1.12.1 or greater
+* have docker 1.12.1 or greater installed
 * have git installed
 
 ### steps
