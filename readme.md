@@ -1,6 +1,6 @@
 ## Read me
 
-A template for getting up and running with [Nancy](http://nancyfx.org/) on [.NET Core](https://www.microsoft.com/net/core#macos) in Docker with [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-watch.html)
+A template for getting up and running with a containerized development environment using [Nancy](http://nancyfx.org/) on [.NET Core](https://www.microsoft.com/net/core#macos) in [Docker](https://www.docker.com/) with [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-watch.html)
 
 
 ### prerequisites
