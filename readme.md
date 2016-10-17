@@ -11,7 +11,7 @@ A template for getting up and running with a containerized development environme
 ### steps
 
 1) run <code>git clone https://github.com/hellgrenj/ncd_template.git</code>   
-2) run <code>dotnet restore</code>    
+2) cd into ncd_template and run <code>dotnet restore</code>    
 3) run <code>docker-compose up</code>  (Docker will pull down some stuff the first time around so have a little patience)  
 4) browse to localhost:5000  
 5) change what <code>GET /</code> returns (see HomeModule.cs) and save. watch the process restart inside the container and refresh the browser.
