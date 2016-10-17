@@ -6,7 +6,7 @@ namespace ncd_template
     {
         public HomeModule()
         {
-            Get("/", _ => "Hello World!!!");
+            Get("/", _ => "Hello World!!");
         }
     }
 }

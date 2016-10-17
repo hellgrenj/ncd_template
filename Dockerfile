@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:latest
-COPY ./project.json /app/src/project.json
+COPY . /app/src/
 WORKDIR /app/src
 RUN ["dotnet", "restore"]
 RUN ["dotnet", "build"]
